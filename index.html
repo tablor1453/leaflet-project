@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet project</title>
+    <link rel="stylesheet" href="./leaflet/leaflet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app.css" />
+</head>
+<body>
+    <nav class="p-0">
+        <div class="navbar px-3">
+            <div class="navbar icon">ICON</div>
+            <div class="navbar menu">
+                <a href="#" class="btn border-white text-white">
+                   Login
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="panel" class="bg-white border rounded-1 p-2">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="kawasanRawanBencana" id="kawasanRawanBencana">
+                <label class="form-check-label" for="kawasanRawanBencana">Kawasan Rawan Bencana</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="aliranLahar" id="aliranLahar">
+                <label class="form-check-label" for="aliranLahar">Aliran Lahar</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="posPegungsian" id="posPengungsian">
+                <label class="form-check-label" for="posPegungsian">Pos Pengungsian</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="jalurEvakuasi" id="jalurEvakuasi">
+                <label class="form-check-label" for="jalurEvakuasi">Jalur Evakuasi</label>
+            </li>
+        </ul>
+    </div>
+    <div id="map"></div>
+</body>
+<script src="./leaflet/leaflet.js"></script>
+<script src="map-component.js"></script>
+<script src="app.js"></script>
+</html>

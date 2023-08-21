@@ -1,0 +1,46 @@
+.leaflet-container {
+    width: 100vw;
+    height: 94.5vh;
+}
+
+#map { 
+    width: 100%;
+    height: 92vh;
+}
+
+nav {
+    position: relative;
+    background-color: rgb(177, 170, 170);
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: .2rem;
+}
+
+.button.btn-home {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: center;
+    border: none;
+    outline: 3px solid rgb(205, 204, 204);
+    width: 2rem;
+    height: 2rem;
+    border-width: unset;
+    padding-inline: .3rem;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.border-white {
+    border-color: white !important;
+}
